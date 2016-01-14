@@ -1,0 +1,278 @@
+body
+{
+	font-family: 'Conv_futurastd-medium-webfont';
+	color:#434a54;
+}
+
+h1,h2,h3
+{
+	font-family: 'ciclefina';
+}
+
+
+/* HEADER */
+#light_b_connexion input.form_bt
+{
+	background-color: #3dcca9;
+	border-color: #0a9976;
+}
+
+
+/* -------------------------------------------------
+	------------ STRUCTURE GENERALE ----------------
+	------------------------------------------------ */
+
+
+/* SERVICE INTRO */
+.annuaire .service_intro .service_intro_photo
+{
+	background-image: url('../img/intro/annuaire.jpg');
+}
+.annuaire .service_intro .service_intro_photo p
+{
+	background-color: rgba(245,76,87,0.75);
+}
+.annuaire .service_intro h1,
+.annuaire .service_contenu h2
+{
+	color: #f54c57;
+}
+/* background-image actualite: voir Jquery:script.js */
+.actualite .service_intro .service_intro_photo p
+{
+	background-color: rgba(51,127,242,0.75);
+}
+.actualite .service_intro h1,
+.actualite .service_contenu h2
+{
+	color: #337ff2;
+}
+.equipements .service_intro .service_intro_photo
+{
+	background-image: url('../img/intro/equipements.jpg');
+}
+.equipements .service_intro .service_intro_photo p
+{
+	background-color: rgba(61,204,169,0.75);
+}
+.equipements .service_intro h1
+{
+	color: #3dcca9;
+}
+
+
+/* SERVICE NAV */
+.service_nav ul li a:link,
+.service_nav ul li a:visited,
+.service_nav ul li a:hover,
+.service_nav ul li a:active
+{
+	color:#434a54;
+	text-decoration: none; 
+}
+
+/* SERVICE NAV -> FORMULAIRE */
+.annuaire input.service_form_btn
+{
+	background-color: #f54c57;
+	border-color: #C21924;
+}
+
+.actualite input.service_form_btn
+{
+	background-color: #337ff2;
+	border-color: #004cc9;
+}
+
+.equipements input.service_form_btn
+{
+	background-color: #3dcca9;
+	border-color: #0a9976;
+}
+/* SERVICE CONTENU -> ARTICLE -> FORMULAIRE */
+.service_contenu form a:link,
+.service_contenu form a:active,
+.service_contenu form a:visited,
+.service_contenu .bt_connexion:link,
+.service_contenu .bt_connexion:active,
+.service_contenu .bt_connexion:visited,
+#bt_01:link,
+#bt_01:active,
+#bt_01:visited,
+#bt_02:link,
+#bt_02:active,
+#bt_02:visited,
+#bt_03:link,
+#bt_03:active,
+#bt_03:visited
+{
+	color:#434a54;
+	text-decoration: underline;
+}
+.service_contenu form a:hover,
+.service_contenu .bt_connexion:hover,
+#bt_01:hover,
+#bt_02:hover,
+#bt_03:hover
+{
+	text-decoration: none;
+}
+
+
+/* SERVICE CONTENU -> ARTICLE -> page n-1 (annuaire_liste & actulité_liste) */
+.annuaire_liste .service_contenu article.n-1_1
+{
+	border-color: #f54c57;
+}
+.annuaire_liste .service_contenu article.n-1_1 .btn
+{
+	color: #f54c57;
+	border-color: #f54c57;
+	background-color: white;
+	transition:0.5s;
+}
+.annuaire_liste .service_contenu article.n-1_1 .btn:hover
+{
+	color: white;
+	border-color: #f54c57;
+	background-color: #f54c57;
+	transition:0.75s;
+}
+
+.actualite_liste .service_contenu article.n-1_1
+{
+	border-color: #337ff2;
+}
+.actualite_liste .service_contenu article.n-1_1 .btn
+{
+	color: #337ff2;
+	border-color: #337ff2;
+	background-color: white;
+	transition:0.5s;
+}
+.actualite_liste .service_contenu article.n-1_1 .btn:hover
+{
+	color: white;
+	border-color: #337ff2;
+	background-color: #337ff2;
+	transition:0.75s;
+}
+
+/* SERVICE CONTENU -> ARTICLE -> page n-2 (annuaire_fiche & equipements_fiche) */
+.service_contenu article.n-2_1 ul:last-child li:first-child
+{
+	background-color: #f54c57;
+}
+
+#tel
+{
+	color: white;
+	text-align: center;
+	background-color: #f54c57;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+
+
+/* SERVICE CONTENU -> ARTICLE -> page n-1 (equipements_liste) */
+.service_contenu article.n-1_2:hover
+{
+	border-color: #3dcca9;
+}
+
+.service_contenu article.n-1_2 a:link,
+.service_contenu article.n-1_2 a:hover,
+.service_contenu article.n-1_2 a:active,
+.service_contenu article.n-1_2 a:visited
+{
+	color:#434a54;
+	text-decoration: none; 
+}
+
+.service_contenu article.n-2_4 div:last-child a:link,
+.service_contenu article.n-2_4 div:last-child a:active,
+.service_contenu article.n-2_4 div:last-child a:hover,
+.service_contenu article.n-2_4 div:last-child a:visited
+{
+	color: white;
+	text-decoration: none;
+	background-color: #3dcca9;
+	border-color: #0a9976;
+}
+
+
+/* -------------------------------------------------
+	---------- // STRUCTURE GENERALE ---------------
+	------------------------------------------------ */
+
+
+/* -------------------------------------------------
+	------------------- HOME -----------------------
+	------------------------------------------------ */
+
+
+#home #home_intro div#cta_services
+{
+	background-color: rgba(36,41,51,0.5);
+}
+#home #home_intro div#cta_services p 
+{
+	text-align: center;
+}
+#home #home_intro div#cta_services p i 
+{
+	font-size: 0.75em;
+	font-family: 'ciclefina';
+	color: white;
+}
+
+#home #home_intro div#cta_services article h2 a:link,
+#home #home_intro div#cta_services article h2 a:hover,
+#home #home_intro div#cta_services article h2 a:active,
+#home #home_intro div#cta_services article h2 a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+/* -------------------------------------------------
+	----------------- // HOME ----------------------
+	------------------------------------------------ */
+
+
+
+/* -------------------------------------------------
+	---------------------- 404 ---------------------
+	------------------------------------------------ */
+
+
+#page_not_found
+{
+	background-image: url('../img/intro/page_not_found.jpg');
+}
+#page_not_found section
+{
+	background-color: rgba(36,41,51,0.5);
+}
+#page_not_found section h1
+{
+	color: white;
+}
+#page_not_found section h1 span
+{
+	font-family: 'Conv_futurastd-medium-webfont';
+}
+#page_not_found section article h2 a:link,
+#page_not_found section article h2 a:hover,
+#page_not_found section article h2 a:active,
+#page_not_found section article h2 a:visited
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+/* -------------------------------------------------
+	----------------- // 404 -----------------------
+	------------------------------------------------ */
